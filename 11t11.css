@@ -1,0 +1,56 @@
+body {
+    text-align: center;        /* Canh toàn trang */
+    background-color: bisque;  /* Nền dễ nhìn */
+    font-family: Arial, sans-serif;
+}
+
+.cactoo {
+    display: inline-block;     /* Giúp div vừa đẹp vừa canh giữa */
+    padding: 20px;
+    background-color: #fff;    /* Nền bảng trắng */
+    border-radius: 15px;       /* Bo góc */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Bóng nhẹ */
+}
+
+input.nhap {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    margin: 15px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+}
